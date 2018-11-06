@@ -1,0 +1,11 @@
+{
+    "name": "PuppetterSample",
+    "description": "puppetter sample code.",
+    "version": "0.0.1",
+    "author": "oohara-k",
+    "dependencies": {
+        "puppeteer": "1.10.0"
+    },
+    "license": "MIT",
+    "main": "main.js"
+}
