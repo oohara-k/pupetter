@@ -1,2 +1,2 @@
 # pupetter
-pupetterの練習用
+puppetterの練習用
