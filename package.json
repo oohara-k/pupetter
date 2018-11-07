@@ -4,8 +4,10 @@
     "version": "0.0.1",
     "author": "oohara-k",
     "dependencies": {
-        "puppeteer": "1.10.0"
+        "puppeteer": "1.10.0",
+        "delay": "4.1.0"
     },
     "license": "MIT",
-    "main": "main.js"
+    "main": "main.js",
+    "repository": "PuppetterSample"
 }
