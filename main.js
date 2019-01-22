@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer');
-const delay = require('delay');
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -19,10 +18,10 @@ const delay = require('delay');
   const client = await page.target().createCDPSession();
   await client.send('Network.emulateNetworkConditions',{
     'offline':false,
-    'downloadThroughput':5 * 1024,
+    'downloadThroughput':50 * 1024,
     'uploadThroughput': 20 * 1024,
     'latency': 500,
   })
   await page.goto('https://tokyo2020shop.jp/user_data/banner/cp/O10571.png',{timeout: 0});
-  await browser.close();
+  // await browser.close();
 })();
