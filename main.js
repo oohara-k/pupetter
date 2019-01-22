@@ -22,6 +22,6 @@ const puppeteer = require('puppeteer');
     'uploadThroughput': 20 * 1024,
     'latency': 500,
   })
-  await page.goto('https://tokyo2020shop.jp/user_data/banner/cp/O10571.png',{timeout: 0});
+  await page.goto('https://',{timeout: 0});
   // await browser.close();
 })();
